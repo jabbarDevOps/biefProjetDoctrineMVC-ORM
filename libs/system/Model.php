@@ -4,10 +4,10 @@ namespace libs\system;
 
 class Model
 {
-    protected $entitieManager;
+    protected $entityManager;
     public function __construct()
     {
-        require_once "bootstrap.php";
-        $this->entitieManager = $entityManager;
+        require_once "./bootstrap.php";
+        $this->entityManager = $entityManager;
     }
 }
