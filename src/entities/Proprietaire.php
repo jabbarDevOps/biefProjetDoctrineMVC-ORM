@@ -1,4 +1,5 @@
 <?php
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -43,52 +44,68 @@ class Proprietaire
     private $numeroPieceIdentite;
 
     //Les getters et setters
-    public function getId(){
+    public function getId()
+    {
         return $this->id;
     }
-    public function setId($id){
-        $this->id=$id;
+    public function setId($id)
+    {
+        $this->id = $id;
     }
-    public function getPrenom(){
+    public function getPrenom()
+    {
         return $this->Prenom;
     }
-    public function setPrenom($prenom){
-        $this->prenom=$prenom;
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
     }
-    public function getNom(){
+    public function getNom()
+    {
         return $this->nom;
     }
-    public function setNom($nom){
-        $this->nom=$nom;
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
     }
-    public function getDateNaissance(){
+    public function getDateNaissance()
+    {
         return $this->dateNaissance;
     }
-    public function setDateNaissance($dateNaissance){
-        $this->dateNaissance=$dateNaissance;
+    public function setDateNaissance($dateNaissance)
+    {
+        $this->dateNaissance = $dateNaissance;
     }
-    public function getLieuNaissance(){
+    public function getLieuNaissance()
+    {
         return $this->lieuNaissance;
     }
-    public function setLieuNaissance($lieuNaissance){
-        $this->lieuNaissance=$lieuNaissance;
+    public function setLieuNaissance($lieuNaissance)
+    {
+        $this->lieuNaissance = $lieuNaissance;
     }
-    public function getCivilite(){
+    public function getCivilite()
+    {
         return $this->civilite;
     }
-    public function setCivilite($civilite){
-        $this->civilite=$civilite;
+    public function setCivilite($civilite)
+    {
+        $this->civilite = $civilite;
     }
-    public function getCodePieceIdentite(){
+    public function getCodePieceIdentite()
+    {
         return $this->codePieceIdentite;
     }
-    public function setCodePieceIdentite($codePieceIdentite){
-        $this->codePieceIdentite=$codePieceIdentite;
+    public function setCodePieceIdentite($codePieceIdentite)
+    {
+        $this->codePieceIdentite = $codePieceIdentite;
     }
-    public function getNumeroPieceIdentite(){
+    public function getNumeroPieceIdentite()
+    {
         return $this->numeroPieceIdentite;
     }
-    public function setNumeroPieceIdentite($numeroPieceIdentite){
-        $this->numeroPieceIdentite=$numeroPieceIdentite;
+    public function setNumeroPieceIdentite($numeroPieceIdentite)
+    {
+        $this->numeroPieceIdentite = $numeroPieceIdentite;
     }
 }
