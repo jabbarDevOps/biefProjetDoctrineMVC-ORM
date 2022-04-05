@@ -31,6 +31,10 @@ class ProprietaireController extends Controller
     public function list()
     {
         $listes = $this->insertion->findAll();
-        return $this->view->load('prorieatire/create');
+        return $this->view->load('prorieatire/show');
+    }
+    public function create()
+    {
+        return $this->view->load("Proprietaire/create");
     }
 }
